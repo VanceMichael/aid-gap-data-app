@@ -1,0 +1,6 @@
+student,department,program,from_day,to_day,known_day
+S1,office,UG,1,24,1
+S2,office,UG,1,38,1
+S3,office,PG,1,38,1
+S4,office,PG,2,30,2
+S1,office,UG,1,16,16

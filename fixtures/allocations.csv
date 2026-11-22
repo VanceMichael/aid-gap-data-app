@@ -1,0 +1,5 @@
+wire,student,cents,recognized_day,confirm_type
+W1,S1,160000,9,school
+W1,S2,150000,12,school
+W2,S3,180000,22,transfer-consent
+W3,S1,-40000,17,school

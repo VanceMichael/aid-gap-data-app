@@ -1,0 +1,6 @@
+charge,student,period,deadline,cents,known_day,amends
+C1,S1,1,20,300000,1,-
+C2,S2,1,20,280000,1,-
+C3,S3,2,28,420000,2,-
+C4,S1,1,20,-50000,16,C1
+C5,S4,2,28,220000,2,-

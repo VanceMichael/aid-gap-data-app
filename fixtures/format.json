@@ -1,0 +1,102 @@
+{
+  "tables": {
+    "charges": [
+      "charge",
+      "student",
+      "period",
+      "deadline",
+      "cents",
+      "known_day",
+      "amends"
+    ],
+    "transfers": [
+      "wire",
+      "student",
+      "route",
+      "day",
+      "cents",
+      "confirmation_day",
+      "adjusts"
+    ],
+    "allocations": [
+      "wire",
+      "student",
+      "cents",
+      "recognized_day",
+      "confirm_type"
+    ],
+    "advances": [
+      "advance",
+      "student",
+      "charge",
+      "amount",
+      "from_day",
+      "to_day",
+      "status"
+    ],
+    "budgets": [
+      "period",
+      "department",
+      "total_cents"
+    ],
+    "history": [
+      "case",
+      "route",
+      "period",
+      "release_day",
+      "last_seen_day",
+      "available_day"
+    ],
+    "enrolments": [
+      "student",
+      "department",
+      "program",
+      "from_day",
+      "to_day",
+      "known_day"
+    ],
+    "deadline-changes": [
+      "charge",
+      "accepted_day",
+      "new_deadline"
+    ]
+  },
+  "links": [
+    [
+      "charges",
+      "student",
+      "enrolments",
+      "student"
+    ],
+    [
+      "deadline-changes",
+      "charge",
+      "charges",
+      "charge"
+    ],
+    [
+      "advances",
+      "charge",
+      "charges",
+      "charge"
+    ],
+    [
+      "allocations",
+      "wire",
+      "transfers",
+      "wire"
+    ],
+    [
+      "allocations",
+      "student",
+      "enrolments",
+      "student"
+    ],
+    [
+      "transfers",
+      "adjusts",
+      "transfers",
+      "wire"
+    ]
+  ]
+}

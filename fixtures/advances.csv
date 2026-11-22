@@ -1,0 +1,4 @@
+advance,student,charge,amount,from_day,to_day,status
+A1,S1,C1,80000,8,22,paid
+A2,S2,C2,60000,9,18,committed
+A3,S3,C3,90000,10,28,proposed

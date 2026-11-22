@@ -1,0 +1,6 @@
+wire,student,route,day,cents,confirmation_day,adjusts
+W1,-,school,6,400000,12,-
+W2,S3,student,8,250000,21,-
+W3,S1,school,13,-40000,17,W1
+W4,S4,instant,19,210000,,-
+W5,S2,student,12,50000,,-
